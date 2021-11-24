@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+ 
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  margin: 0 -0.5rem;
+}
+[class^="column"] {
+  padding: 0 0.5rem;
+}
+.column {
+  flex: 1 0 0;
+}
+
+.navbar  {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.navbar ul:first-of-type {
+  
+  flex-grow: 1;
+  
+}
+.navbar ul {
+  display: flex;
+
+  list-style-type: none;
+}
+.navbar a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  
+}
+
+.navbar .pink {
+   background-color: pink;
+   padding: 10px;
+   border-radius: 20px;
+}
+ .navbar .green {
+  background-color: rgb(4, 170, 109);
+  border-radius: 20px;
+  padding: 10px;
+}
+.nav .active {
+   background-color: rgb(4, 170, 109);
+}
+.navbar i {
+  
+}
+.nav {
+   display: flex;
+   justify-content: space-between;
+   background-color: #282A35;
+   max-height: 50px;
+   margin: 0;
+  
+}
+.nav a {
+  color: white;
+  font-size: 12px;
+}
+.nav i {
+  color: white;
+}
+.navbar .i:first-of-type {
+   padding-top: 15px;
+   padding-left: 10px;
+}
+.nav ul:last-of-type li {
+  padding: 0 5px;
+}
+
