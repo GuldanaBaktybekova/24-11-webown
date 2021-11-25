@@ -1,18 +1,33 @@
 body {
-  margin: 0;
+  margin: 0 auto;
+  
 }
 * {
   box-sizing: border-box;
  
 }
 
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  margin: 0 -0.5rem;
+}
+[class^="column"] {
+  padding: 0 0.5rem;
+}
+.column {
+  flex: 1 0 0;
+}
 .navbar  {
   display: flex;
   justify-content: space-between;
 
-  margin: 5px;
   font-family: sans-serif;
   font-weight: bold;
+  
 }
 
 .navbar ul:first-of-type {
@@ -27,10 +42,10 @@ body {
 }
 
 .navbar a {
-  padding: 10px;
+  padding: 16px 10px;
   text-decoration: none;
   color: black;
-  font-size: 15px;
+  font-size: 14px;
   display: inline-block;
 }
 
@@ -46,7 +61,10 @@ body {
 }
 .nav .active {
    background-color: rgb(4, 170, 109);
-   padding: 17px;
+   padding: 16px 10px;
+}
+.navbar .paid {
+  padding: 10px;
 }
 
 
@@ -61,6 +79,7 @@ body {
 .nav ul:first-of-type {
   align-items: center;
 }
+
 .nav a {
   color: white;
   font-size: 12px;
@@ -69,7 +88,7 @@ body {
   color: white;
 }
 .navbar .i:first-of-type {
-   padding-top: 25px;
+   padding-top: 28px;
    padding-left: 10px;
 }
 .nav .i:first-of-type {
@@ -78,6 +97,8 @@ body {
 }
 .nav ul:last-of-type li {
   padding: 0 5px;
+  
+  
 }
 
 .hover-green ul li:hover {
@@ -90,4 +111,7 @@ body {
 }
 .hover-black ul li:hover {
    background-color: black;
+}
+.wpl {
+  align-items: center;
 }
