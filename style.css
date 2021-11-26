@@ -164,7 +164,7 @@ main .first-div p {
 
 main .html-ex {
   max-width: 80%;
-  max-height: 30%;
+  max-height: 20%;
   border-left: 5px solid rgb(4, 170, 109);
   background-color: #fff;
   font-size: 12px;
@@ -194,6 +194,12 @@ main .blue-span {
 main .last {
   margin: 15px;
 
+}
+main .last-p {
+   padding: 15px;
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 14px;
 }
 
 footer .column {
