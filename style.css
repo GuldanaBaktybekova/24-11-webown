@@ -152,18 +152,26 @@ main .first-div p {
 .css-ex h4 {
   font-weight: 500;
   font-family: sans-serif;
+  padding-top: 10px;
+  margin: 15px;
 }
 .css-ex {
   background-color: #e7e9eb;
+  max-width: 60%;
+ 
+  
 }
 
 main .html-ex {
-  max-width: 50%;
-  height: 30%;
+  max-width: 80%;
+  max-height: 30%;
   border-left: 5px solid rgb(4, 170, 109);
   background-color: #fff;
   font-size: 12px;
-  padding: 10px;
+  padding: 5px;
+  margin: 15px;
+  margin-bottom: 20px;
+  
 }
 main .p-red {
   color: red;
@@ -177,6 +185,15 @@ main .span {
 }
 main .blue-span {
   color: blue;
+}
+.main .try {
+  padding: 10px;
+
+
+}
+main .last {
+  margin: 15px;
+
 }
 
 footer .column {
