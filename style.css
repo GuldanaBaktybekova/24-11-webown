@@ -1,10 +1,8 @@
 body {
   margin: 0 auto;
-  
 }
 * {
   box-sizing: border-box;
- 
 }
 
 .container {
@@ -21,26 +19,26 @@ body {
 .column {
   flex: 1 0 0;
 }
-.navbar  {
+.navbar {
   display: flex;
   justify-content: space-between;
 
   font-family: sans-serif;
   font-weight: bold;
-  
- 
-  
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .navbar ul:first-of-type {
-  
   flex-grow: 1;
-  
 }
 .navbar ul {
   display: flex;
 
   list-style-type: none;
+  padding: 0;
 }
 
 .navbar a {
@@ -52,31 +50,29 @@ body {
 }
 
 .navbar .pink {
-   background-color: pink;
-   padding: 10px;
-   border-radius: 20px;
+  background-color: pink;
+  padding: 10px;
+  border-radius: 20px;
 }
- .navbar .green {
+.navbar .green {
   background-color: rgb(4, 170, 109);
   border-radius: 20px;
   padding: 10px;
 }
 .nav .active {
-   background-color: rgb(4, 170, 109);
-   padding: 16px 10px;
+  background-color: rgb(4, 170, 109);
+  padding: 16px 10px;
 }
 .navbar .paid {
   padding: 10px;
 }
 
-
 .nav {
-   display: flex;
-   justify-content: space-between;
-   background-color: #282A35;
-   max-height: 50px;
-   margin: 0;
-  
+  display: flex;
+  justify-content: space-between;
+  background-color: #282a35;
+  max-height: 50px;
+  margin: 0;
 }
 .nav ul:first-of-type {
   align-items: center;
@@ -90,8 +86,8 @@ body {
   color: white;
 }
 .navbar .i:first-of-type {
-   padding-top: 28px;
-   padding-left: 10px;
+  padding-top: 28px;
+  padding-left: 10px;
 }
 .nav .i:first-of-type {
   padding-top: 15px;
@@ -99,25 +95,20 @@ body {
 }
 .nav ul:last-of-type li {
   padding: 0 5px;
-  
-  
 }
 
 .hover-green ul li:hover {
-   background-color: rgb(4, 170, 109);
-   
+  background-color: rgb(4, 170, 109);
 }
 .hover-green ul li a:hover {
   color: white;
-  
 }
 .hover-black ul li:hover {
-   background-color: black;
+  background-color: black;
 }
 .wpl {
   align-items: center;
 }
-
 
 header {
   font-family: sans-serif;
@@ -125,8 +116,9 @@ header {
 }
 header h1 {
   font-weight: normal;
+  padding: 10px;
 }
-header .btn {
+.btn {
   background-color: rgb(4, 170, 109);
   text-decoration: none;
   color: white;
@@ -139,17 +131,59 @@ header .small-btn {
   margin: 10px;
 }
 header .blue-div {
-  background-color: #D9EEE1;
+  background-color: #d9eee1;
   padding: 20px;
+  font-size: 12px;
 }
+header .big-btn {
+  margin-top: 20px;
+}
+main .first-div h2 {
+  font-weight: normal;
+}
+main .first-div {
+  font-family: sans-serif;
+  padding: 15px;
+}
+main .first-div p {
+  font-size: 12px;
+}
+
+.css-ex h4 {
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.css-ex {
+  background-color: #e7e9eb;
+}
+
+main .html-ex {
+  max-width: 50%;
+  height: 30%;
+  border-left: 5px solid rgb(4, 170, 109);
+  background-color: #fff;
+  font-size: 12px;
+  padding: 10px;
+}
+main .p-red {
+  color: red;
+  padding-left: 10px;
+}
+main .p-brown {
+  color: brown;
+}
+main .span {
+  color: black;
+}
+main .blue-span {
+  color: blue;
+}
+
 footer .column {
- 
-  background-color: #E7E9EB;
+  background-color: #e7e9eb;
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
- 
-
 }
 footer .row {
   display: flex;
