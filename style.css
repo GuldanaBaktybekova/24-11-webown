@@ -28,6 +28,8 @@ body {
   font-family: sans-serif;
   font-weight: bold;
   
+ 
+  
 }
 
 .navbar ul:first-of-type {
@@ -114,6 +116,20 @@ body {
 }
 .wpl {
   align-items: center;
+}
+
+
+header {
+  font-family: sans-serif;
+ 
+}
+header h1 {
+  font-weight: normal;
+}
+header .btn {
+  background-color: rgb(4, 170, 109);
+  text-decoration: none;
+  color: white;
 }
 footer .column {
  
