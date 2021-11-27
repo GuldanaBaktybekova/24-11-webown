@@ -248,10 +248,73 @@ main .last-p {
    font-weight: bold;
    font-size: 14px;
 }
-
-main .css-emt {
+main .css-example {
   font-family: sans-serif;
-  font
+}
+main .css-emt {
+
+  font-weight: normal;
+  font-size: 20px;
+}
+main .css-example .go-to-ex {
+   font-size: 12px;
+   color: black;
+}
+.go-to-ex {
+  font-size: 12px;
+  color: black;
+  
+}
+.submit {
+  margin: 10px;
+}
+main .css-example .go-to-ex:hover {
+  color: green;
+}
+main .css-example p {
+  font-size: 12px;
+}
+main .css-exercises  {
+   font-family: sans-serif;
+   max-width: 70%;
+   display: block;
+}
+main .css-exercises h2 {
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+}
+main .test-you {
+  background-color: #282a35;
+  padding: 10px 14px 10px 10px;
+
+}
+main .test-you h2 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+main .exer-ex {
+  background-color: white;
+  padding: 20px;
+}
+main .exer-ex h2 {
+  color: black;
+}
+main .grey-ex {
+  background-color: #E7E9EB;;
+  padding: 10px;
+  line-height: 5px;
+  
+}
+main .grey-ex .small-in {
+  padding: 1px;
+  width: 12px;
+  border: 1px solid black;
+}
+main .grey-ex .big-in {
+  width: 60px;
+  padding: 1px;
+  border: 1px solid black;
 }
 
 footer .column {
