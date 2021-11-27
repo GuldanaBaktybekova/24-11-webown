@@ -255,6 +255,7 @@ main .css-emt {
 
   font-weight: normal;
   font-size: 20px;
+  font-family: sans-serif;
 }
 main .css-example .go-to-ex {
    font-size: 12px;
@@ -266,17 +267,21 @@ main .css-example .go-to-ex {
   
 }
 .sub-span {
-  margin: 10px;
+  
   
   background-color: rgb(4, 170, 109);
  
 
-  padding: 5px 7px;
+  padding: 4px 10px;
   border-radius: 5px;
+ 
   
 }
 .submit {
+  text-align: center;
   font-size: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
   text-decoration: none;
   color: white;
 }
@@ -345,6 +350,10 @@ main .grey-ex input {
 }
 main .grey-ex input:active {
   border: 2px solid black;
+}
+main .css-emt~p {
+  font-size: 12px;
+  font-family: sans-serif;
 }
 footer .column {
   background-color: #e7e9eb;
