@@ -310,11 +310,18 @@ main .grey-ex .small-in {
   padding: 1px;
   width: 12px;
   border: none;
+  margin-bottom: 5px;
+  margin-right: 5px;
 }
 main .grey-ex .big-in {
   width: 60px;
   padding: 1px;
   border: none;
+  margin-bottom: 5px;
+  
+}
+main .grey-ex input {
+  
 }
 main .grey-ex input:active {
   border: 2px solid black;
