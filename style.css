@@ -265,8 +265,20 @@ main .css-example .go-to-ex {
   color: black;
   
 }
-.submit {
+.sub-span {
   margin: 10px;
+  
+  background-color: rgb(4, 170, 109);
+ 
+
+  padding: 5px 7px;
+  border-radius: 5px;
+  
+}
+.submit {
+  font-size: 10px;
+  text-decoration: none;
+  color: white;
 }
 main .css-example .go-to-ex:hover {
   color: green;
@@ -299,11 +311,19 @@ main .exer-ex {
 }
 main .exer-ex h2 {
   color: black;
+  margin-left: 5px;
+}
+main .exer-ex h2~p {
+  font-size: 12px;
+  margin-left: 5px;
 }
 main .grey-ex {
   background-color: #E7E9EB;;
   padding: 10px;
   line-height: 5px;
+  font-size: 13px;
+  
+  font-family: monospace;
   
 }
 main .grey-ex .small-in {
@@ -321,7 +341,7 @@ main .grey-ex .big-in {
   
 }
 main .grey-ex input {
-  
+  margin-left: 15px;
 }
 main .grey-ex input:active {
   border: 2px solid black;
