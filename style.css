@@ -353,7 +353,25 @@ main .grey-ex input:active {
 }
 main .css-emt~p {
   font-size: 12px;
+ 
+}
+main .quiz {
+  margin-left: 25px;
   font-family: sans-serif;
+  padding: 20px;
+}
+main button {
+  border: none;
+  background-color: #2196F3;
+  padding: 5px 30px;
+  border-radius: 3px;
+}
+main .quiz .btn-blue {
+  
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+  font-weight: 550;
 }
 footer .column {
   background-color: #e7e9eb;
