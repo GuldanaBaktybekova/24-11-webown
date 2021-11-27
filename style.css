@@ -309,14 +309,16 @@ main .grey-ex {
 main .grey-ex .small-in {
   padding: 1px;
   width: 12px;
-  border: 1px solid black;
+  border: none;
 }
 main .grey-ex .big-in {
   width: 60px;
   padding: 1px;
-  border: 1px solid black;
+  border: none;
 }
-
+main .grey-ex input:active {
+  border: 2px solid black;
+}
 footer .column {
   background-color: #e7e9eb;
   padding: 10px;
