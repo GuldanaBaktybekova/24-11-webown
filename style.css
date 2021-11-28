@@ -33,7 +33,6 @@ body {
 
 .navbar ul:first-of-type {
   flex-grow: 1;
-
 }
 .navbar ul {
   display: flex;
@@ -58,7 +57,6 @@ body {
 }
 .navbar .pink:hover {
   background-color: rgb(4, 170, 109);
-  
 }
 .navbar .green {
   background-color: rgb(4, 170, 109);
@@ -79,11 +77,10 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #282a35;
- 
+
   margin: 0;
   font-size: 11px;
   height: 35px;
-  
 }
 .nav ul:first-of-type {
   align-items: center;
@@ -103,17 +100,15 @@ body {
   padding-left: 10px;
 }
 .nav .i:first-of-type {
-  padding: 10px ;
-  
-  font-size: 16px;
+  padding: 10px;
 
+  font-size: 16px;
 }
 .nav .i:first-of-type:hover {
   background-color: black;
 }
 .nav ul:last-of-type li {
   padding: 11px 5px;
-
 }
 
 .hover-green ul li:hover {
@@ -122,12 +117,11 @@ body {
 .hover-green ul li a:hover {
   color: white;
 }
-.hover-black ul li:hover  {
+.hover-black ul li:hover {
   background-color: black;
 }
 .wpl {
   align-items: center;
-
 }
 .wpl .pink span {
   border: 1px solid black;
@@ -139,7 +133,7 @@ body {
   top: -1px;
   color: black;
 }
-.hover-green  span {
+.hover-green span {
   border: 1px solid black;
   border-radius: 20px;
   background-color: white;
@@ -204,29 +198,23 @@ main .html-ex {
   margin: 15px;
   margin-bottom: 20px;
   line-height: 0.5;
-  
 }
 main .p-red {
   color: red;
-  
-  padding-left: 10px;
 
+  padding-left: 10px;
 }
 main .p-brown {
   color: brown;
 }
 main .span {
   color: black;
-  
 }
 main .blue-span {
   color: blue;
 }
 .main .try a {
   padding: 10px;
- 
-
-
 }
 
 .css-ex {
@@ -235,47 +223,38 @@ main .blue-span {
   margin: 10px;
   border-radius: 5px;
   padding-bottom: 15px;
-  
 }
 
 main .last {
   margin: 15px;
-
 }
 main .last-p {
-   padding: 15px;
-   font-family: sans-serif;
-   font-weight: bold;
-   font-size: 14px;
+  padding: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
 }
 main .css-example {
   font-family: sans-serif;
 }
 main .css-emt {
-
   font-weight: normal;
   font-size: 20px;
   font-family: sans-serif;
 }
 main .css-example .go-to-ex {
-   font-size: 12px;
-   color: black;
+  font-size: 12px;
+  color: black;
 }
 .go-to-ex {
   font-size: 12px;
   color: black;
-  
 }
 .sub-span {
-  
-  
   background-color: rgb(4, 170, 109);
- 
 
   padding: 4px 10px;
   border-radius: 5px;
- 
-  
 }
 .submit {
   text-align: center;
@@ -291,10 +270,10 @@ main .css-example .go-to-ex:hover {
 main .css-example p {
   font-size: 12px;
 }
-main .css-exercises  {
-   font-family: sans-serif;
-   max-width: 70%;
-   display: block;
+main .css-exercises {
+  font-family: sans-serif;
+  max-width: 70%;
+  display: block;
 }
 main .css-exercises h2 {
   font-size: 20px;
@@ -304,7 +283,6 @@ main .css-exercises h2 {
 main .test-you {
   background-color: #282a35;
   padding: 10px 14px 10px 10px;
-
 }
 main .test-you h2 {
   margin-left: 10px;
@@ -318,18 +296,17 @@ main .exer-ex h2 {
   color: black;
   margin-left: 5px;
 }
-main .exer-ex h2~p {
+main .exer-ex h2 ~ p {
   font-size: 12px;
   margin-left: 5px;
 }
 main .grey-ex {
-  background-color: #E7E9EB;;
+  background-color: #e7e9eb;
   padding: 10px;
   line-height: 5px;
   font-size: 13px;
-  
+
   font-family: monospace;
-  
 }
 main .grey-ex .small-in {
   padding: 1px;
@@ -343,7 +320,6 @@ main .grey-ex .big-in {
   padding: 1px;
   border: none;
   margin-bottom: 5px;
-  
 }
 main .grey-ex input {
   margin-left: 15px;
@@ -351,9 +327,8 @@ main .grey-ex input {
 main .grey-ex input:active {
   border: 2px solid black;
 }
-main .css-emt~p {
+main .css-emt ~ p {
   font-size: 12px;
- 
 }
 main .quiz {
   margin-left: 25px;
@@ -362,12 +337,11 @@ main .quiz {
 }
 main button {
   border: none;
-  background-color: #2196F3;
+  background-color: #2196f3;
   padding: 5px 30px;
   border-radius: 3px;
 }
 main .quiz .btn-blue {
-  
   text-decoration: none;
   color: white;
   font-size: 11px;
@@ -378,13 +352,13 @@ main .refer {
   margin: 20px;
 }
 main .refer p {
-   font-size: 12px;
+  font-size: 12px;
 }
 main .refer ul {
   font-size: 12px;
   list-style-type: none;
 }
-main .refer ul li  {
+main .refer ul li {
   padding: 10px;
 }
 main .refer ul li a {
@@ -394,27 +368,24 @@ main .refer ul li a {
 main .end {
   background-color: #282a35;
   width: 60%;
- 
+
   border-radius: 10px;
   padding: 0 60px 50px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 main .end h2 {
-  color: #FFC0C7;
+  color: #ffc0c7;
   letter-spacing: 1px;
   font-size: 30px;
   font-weight: bold;
   padding-top: 50px;
-
-  
 }
 main .end p {
-  color: #FFC0C7;
+  color: #ffc0c7;
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 40px;
-  
 }
 .btn-bord {
   background-color: rgb(4, 170, 109);
@@ -429,7 +400,7 @@ main .end p {
 main .circle {
   background-color: rgb(4, 170, 109);
   color: white;
-  
+
   border-radius: 50%;
   width: 150px;
   height: 140px;
@@ -443,7 +414,6 @@ main .circle p {
   font-size: 12px;
   text-align: center;
 }
-
 
 main .circle h1 {
   text-align: center;
@@ -467,13 +437,11 @@ main .small-btn {
   width: 60%;
 }
 
-
-
- footer .ft-start {
-   width: 80%;
-   font-family:  sans-serif;
- }
- footer .ft-grey {
+footer .ft-start {
+  width: 80%;
+  font-family: sans-serif;
+}
+footer .ft-grey {
   background-color: #e7e9eb;
   padding: 5px 10px;
   margin: 10px;
@@ -492,8 +460,8 @@ footer a {
 }
 .color-black {
   color: black;
-} 
-footer .f-end{
+}
+footer .f-end {
   font-family: sans-serif;
 
   margin: 0;
@@ -503,7 +471,7 @@ footer .ft-end h5 {
   margin-left: 35px;
   font-size: 14px;
 }
-footer .ft-end ul li a{
+footer .ft-end ul li a {
   font-size: 9px;
   line-height: 1.5em;
 }
@@ -511,14 +479,76 @@ footer .ft-end ul {
   list-style-type: none;
 }
 footer .black-a-btn {
-  background-color: #282A35;
+  background-color: #282a35;
   display: inline-block;
   padding: 8px 10px;
   color: white;
   border-radius: 5px;
   font-size: 10px;
   margin-left: 80px;
-  
-
+}
+footer .finish p{
+  font-size: 10px;
+  font-family: sans-serif;
+  color: #000;
+  opacity: 0.60;
+  padding: 10px;
+  width: 80%;
+}
+footer .finish p:nth-child(2) {
+  text-align: center;
+}
+footer .finish .i-finish {
+   display: flex;
+   justify-content: center;
+   margin-right: 200px;
 }
 
+
+.column-1{
+  flex: 0 0 8.333333%;
+  background-color: rgba(223, 46, 15, 0.671);
+  }
+.column-2 {
+  flex: 0 0 16.66666667%;
+  background-color: rgba(223, 46, 15, 0.671);
+}
+.column-3 {
+  flex: 0 0 25%;
+  background-color: rgba(223, 46, 15, 0.671);
+}
+.column-4 {
+  flex: 0 0 33.333333%;
+}
+.column-5 {
+  flex: 0 0 41.66666667%;
+  background-color: rgba(223, 46, 15, 0.671);
+}
+.column-6 {
+  flex: 0 0 50%;
+  background-color: rgba(223, 46, 15, 0.671);
+}
+.column-7 {
+  flex: 0 058.22222%;
+  background-color: rgba(223, 46, 15, 0.671);
+}
+.column-8 {
+  flex: 0 0 66.66666667%;
+ 
+}
+.column-9 {
+  flex: 0 0 75%;
+  background-color: rgba(223, 46, 15, 0.671);
+}
+.column-10 {
+  flex: 0 0 83.111111%;
+  background-color: rgba(223, 46, 15, 0.671);
+}
+.column-11 {
+  flex: 0 0 91.66666667%;
+  background-color: rgba(223, 46, 15, 0.671);
+}
+.column-12 {
+  flex: 0 0 100%;
+   background-color: rgba(223, 46, 15, 0.671);
+}
