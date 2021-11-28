@@ -390,9 +390,92 @@ main .refer ul li  {
 main .refer ul li a {
   color: black;
 }
-footer .column {
+
+main .end {
+  background-color: #282a35;
+  width: 60%;
+ 
+  border-radius: 10px;
+  padding: 0 60px 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+main .end h2 {
+  color: #FFC0C7;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 50px;
+
+  
+}
+main .end p {
+  color: #FFC0C7;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 40px;
+  
+}
+.btn-bord {
+  background-color: rgb(4, 170, 109);
+  color: white;
+  font-size: 12px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+main .circle {
+  background-color: rgb(4, 170, 109);
+  color: white;
+  
+  border-radius: 50%;
+  width: 150px;
+  height: 140px;
+  display: inline-block;
+  font-family: sans-serif;
+  position: relative;
+  right: -360px;
+  top: -80px;
+}
+main .circle p {
+  font-size: 12px;
+  text-align: center;
+}
+
+
+main .circle h1 {
+  text-align: center;
+  position: relative;
+  top: -20px;
+  right: -10px;
+  font-weight: 900;
+  font-size: 50px;
+}
+main .big-three {
+  font-size: 20px;
+  font-weight: normal;
+  position: relative;
+  top: -30px;
+  left: -15px;
+}
+main .small-btn {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  width: 60%;
+}
+
+
+
+ footer .ft-start {
+   width: 80%;
+   font-family:  sans-serif;
+ }
+ footer .ft-grey {
   background-color: #e7e9eb;
-  padding: 10px;
+  padding: 5px 10px;
   margin: 10px;
   border-radius: 5px;
 }
@@ -405,8 +488,37 @@ footer a {
   color: black;
   display: flex;
   justify-content: center;
-  font-size: 15px;
+  font-size: 12px;
 }
 .color-black {
   color: black;
+} 
+footer .f-end{
+  font-family: sans-serif;
+
+  margin: 0;
 }
+footer .ft-end h5 {
+  text-align: center;
+  margin-left: 35px;
+  font-size: 14px;
+}
+footer .ft-end ul li a{
+  font-size: 9px;
+  line-height: 1.5em;
+}
+footer .ft-end ul {
+  list-style-type: none;
+}
+footer .black-a-btn {
+  background-color: #282A35;
+  display: inline-block;
+  padding: 8px 10px;
+  color: white;
+  border-radius: 5px;
+  font-size: 10px;
+  margin-left: 80px;
+  
+
+}
+
