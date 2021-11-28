@@ -373,6 +373,23 @@ main .quiz .btn-blue {
   font-size: 11px;
   font-weight: 550;
 }
+main .refer {
+  font-family: sans-serif;
+  margin: 20px;
+}
+main .refer p {
+   font-size: 12px;
+}
+main .refer ul {
+  font-size: 12px;
+  list-style-type: none;
+}
+main .refer ul li  {
+  padding: 10px;
+}
+main .refer ul li a {
+  color: black;
+}
 footer .column {
   background-color: #e7e9eb;
   padding: 10px;
