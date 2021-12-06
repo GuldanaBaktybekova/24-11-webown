@@ -1,5 +1,6 @@
 body {
   margin: 0 auto;
+  border-right: 1px solid lightgray;
 }
 * {
   box-sizing: border-box;
@@ -25,6 +26,7 @@ body {
 
   font-family: sans-serif;
   font-weight: bold;
+  
 }
 
 .justify-center {
@@ -50,6 +52,9 @@ body {
   display: inline-block;
 }
 
+.hover-green ul:first-of-type li:hover {
+  background-color: rgb(4, 170, 109);
+}
 .navbar .pink {
   background-color: pink;
   padding: 10px 20px;
@@ -57,12 +62,16 @@ body {
 }
 .navbar .pink:hover {
   background-color: rgb(4, 170, 109);
+  
 }
 .navbar .green {
   background-color: rgb(4, 170, 109);
   border-radius: 20px;
   padding: 10px 20px;
   color: white;
+}
+.navbar .green:hover {
+  background-color: rgb(16, 151, 102);
 }
 .nav .active {
   background-color: rgb(4, 170, 109);
@@ -71,7 +80,14 @@ body {
 }
 .navbar .paid {
   padding: 10px;
+  border-radius: 20px;
+  margin: 0 10px;
+  
 }
+.navbar .paid:hover {
+    background-color: rgb(4, 170, 109);
+}
+
 
 .nav {
   display: flex;
@@ -81,6 +97,8 @@ body {
   margin: 0;
   font-size: 11px;
   height: 35px;
+  position: sticky;
+  top: 0;
 }
 .nav ul:first-of-type {
   align-items: center;
@@ -111,9 +129,6 @@ body {
   padding: 11px 5px;
 }
 
-.hover-green ul li:hover {
-  background-color: rgb(4, 170, 109);
-}
 .hover-green ul li a:hover {
   color: white;
 }
@@ -145,7 +160,9 @@ body {
 }
 header {
   font-family: sans-serif;
-  max-width: 60%;
+  max-width: 100%;
+  border: 1px solid rgb(214, 205, 205);
+  padding-bottom: 10px;
 }
 header h1 {
   font-weight: normal;
@@ -177,11 +194,11 @@ main .first-div h2 {
 main .first-div {
   font-family: sans-serif;
   padding: 15px;
+  
 }
 main .first-div p {
   font-size: 12px;
 }
-
 .css-ex h4 {
   font-weight: 500;
   font-family: sans-serif;
@@ -219,10 +236,11 @@ main .blue-span {
 
 .css-ex {
   background-color: #e7e9eb;
-  max-width: 60%;
+  max-width: 100%;
   margin: 10px;
   border-radius: 5px;
   padding-bottom: 15px;
+  
 }
 
 main .last {
@@ -272,7 +290,7 @@ main .css-example p {
 }
 main .css-exercises {
   font-family: sans-serif;
-  max-width: 70%;
+  max-width: 100%;
   display: block;
 }
 main .css-exercises h2 {
@@ -349,7 +367,7 @@ main .quiz .btn-blue {
 }
 main .refer {
   font-family: sans-serif;
-  margin: 20px;
+  margin: 10px;
 }
 main .refer p {
   font-size: 12px;
@@ -357,6 +375,7 @@ main .refer p {
 main .refer ul {
   font-size: 12px;
   list-style-type: none;
+  padding-left: 0;
 }
 main .refer ul li {
   padding: 10px;
@@ -364,10 +383,13 @@ main .refer ul li {
 main .refer ul li a {
   color: black;
 }
+main .refer ul li a:hover {
+  color: green;
+}
 
 main .end {
   background-color: #282a35;
-  width: 60%;
+  width: 100%;
 
   border-radius: 10px;
   padding: 0 60px 50px;
@@ -397,48 +419,16 @@ main .end p {
   font-weight: bold;
   margin-top: 20px;
 }
-main .circle {
-  background-color: rgb(4, 170, 109);
-  color: white;
-
-  border-radius: 50%;
-  width: 150px;
-  height: 140px;
-  display: inline-block;
-  font-family: sans-serif;
-  position: relative;
-  right: -360px;
-  top: -80px;
-}
-main .circle p {
-  font-size: 12px;
-  text-align: center;
-}
-
-main .circle h1 {
-  text-align: center;
-  position: relative;
-  top: -20px;
-  right: -10px;
-  font-weight: 900;
-  font-size: 50px;
-}
-main .big-three {
-  font-size: 20px;
-  font-weight: normal;
-  position: relative;
-  top: -30px;
-  left: -15px;
-}
 main .small-btn {
   display: flex;
   justify-content: space-between;
   margin: 10px;
-  width: 60%;
+  width: 90%;
+  margin-top: 50px;
 }
 
 footer .ft-start {
-  width: 80%;
+  width: 100%;
   font-family: sans-serif;
 }
 footer .ft-grey {
@@ -474,6 +464,11 @@ footer .ft-end h5 {
 footer .ft-end ul li a {
   font-size: 9px;
   line-height: 1.5em;
+
+}
+footer .ft-end ul li a:hover {
+  color: green;
+  text-decoration: underline;
 }
 footer .ft-end ul {
   list-style-type: none;
@@ -487,68 +482,118 @@ footer .black-a-btn {
   font-size: 10px;
   margin-left: 80px;
 }
-footer .finish p{
+footer .finish p {
   font-size: 10px;
   font-family: sans-serif;
   color: #000;
-  opacity: 0.60;
+  opacity: 0.6;
   padding: 10px;
-  width: 80%;
+  width: 100%;
 }
 footer .finish p:nth-child(2) {
   text-align: center;
 }
 footer .finish .i-finish {
-   display: flex;
-   justify-content: center;
-   margin-right: 200px;
+  display: flex;
+  justify-content: center;
+  margin-right: 200px;
 }
 
+.scroll-right {
+  font-family: sans-serif;
 
-.column-1{
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 800px;
+  background-color: #e7e9eb;
+  position: sticky;
+  top: 35px;
+ 
+  padding: 0;
+}
+.scroll-right h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 0 0 15px;
+
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+.scroll-right h2:first-of-type {
+  margin-top: 10px;
+}
+.scroll-right ul {
+  list-style-type: none;
+  padding-left: 5px;
+  margin-top: 0;
+  padding-right: 0;
+}
+.scroll-right a {
+  text-decoration: none;
+  font-size: 10px;
+  color: black;
+  margin: 0 0;
+  display: block;
+  padding: 3px 0px 3px 16px;
+  margin: 0;
+}
+.scroll-right .active {
+  background-color: rgb(4, 170, 109);
+  color: white;
+  width: 100%;
+
+  padding: 3px 30px;
+  padding-left: 15px;
+}
+.scroll-right .active:hover {
+  background-color: rgb(4, 170, 109);
+}
+.scroll-right a:hover {
+  background-color: lightgray;
+}
+
+.column-1 {
   flex: 0 0 8.333333%;
-  background-color: rgba(223, 46, 15, 0.671);
-  }
+ 
+}
 .column-2 {
   flex: 0 0 16.66666667%;
-  background-color: rgba(223, 46, 15, 0.671);
 }
 .column-3 {
   flex: 0 0 25%;
-  background-color: rgba(223, 46, 15, 0.671);
+  
 }
 .column-4 {
   flex: 0 0 33.333333%;
 }
 .column-5 {
   flex: 0 0 41.66666667%;
-  background-color: rgba(223, 46, 15, 0.671);
+  
 }
 .column-6 {
   flex: 0 0 50%;
-  background-color: rgba(223, 46, 15, 0.671);
+ 
 }
 .column-7 {
   flex: 0 058.22222%;
-  background-color: rgba(223, 46, 15, 0.671);
+ 
 }
 .column-8 {
   flex: 0 0 66.66666667%;
- 
 }
 .column-9 {
   flex: 0 0 75%;
-  background-color: rgba(223, 46, 15, 0.671);
+ 
 }
 .column-10 {
   flex: 0 0 83.111111%;
-  background-color: rgba(223, 46, 15, 0.671);
+  
 }
 .column-11 {
   flex: 0 0 91.66666667%;
-  background-color: rgba(223, 46, 15, 0.671);
+ 
 }
 .column-12 {
   flex: 0 0 100%;
-   background-color: rgba(223, 46, 15, 0.671);
+  
 }
